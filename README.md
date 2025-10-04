@@ -47,19 +47,19 @@ A comprehensive and secure authentication system built with the MERN stack, feat
 ## Project Structure
 
 mern-auth/
-├── client/                 # React frontend
+├── client/                 
 │   ├── src/
 │   │   ├── components/    
 │   │   ├── context/       
 │   │   ├── pages/       
 │   │   └── assets/       
-├── server/                 # Node.js backend
-│   ├── controllers/       # Route handlers
-│   ├── models/            # MongoDB schemas
-│   ├── middleware/        # Custom middleware
-│   ├── routes/            # API routes
-│   └── utils/             # Helper functions
-└── config/                # Configuration files
+├── server/              
+│   ├── controllers/     
+│   ├── models/          
+│   ├── middleware/     
+│   ├── routes/      
+│   └── utils/         
+└── config/              
 
 
 ## API Endpoints
