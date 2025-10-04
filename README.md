@@ -45,14 +45,14 @@ A comprehensive and secure authentication system built with the MERN stack, feat
 - Custom response handlers
 
 ## Project Structure
-\`\`\`
+
 mern-auth/
 ├── client/                 # React frontend
 │   ├── src/
-│   │   ├── components/    # Reusable components
-│   │   ├── context/       # AppContext for state management
-│   │   ├── pages/         # Route components
-│   │   └── assets/        # Static files
+│   │   ├── components/    
+│   │   ├── context/       
+│   │   ├── pages/       
+│   │   └── assets/       
 ├── server/                 # Node.js backend
 │   ├── controllers/       # Route handlers
 │   ├── models/            # MongoDB schemas
@@ -60,7 +60,7 @@ mern-auth/
 │   ├── routes/            # API routes
 │   └── utils/             # Helper functions
 └── config/                # Configuration files
-\`\`\`
+
 
 ## API Endpoints
 - \`POST /auth/register\` - User registration
@@ -90,7 +90,7 @@ mern-auth/
 6. Run development servers
 
 ## Environment Variables
-\`\`\`
+
 # Backend
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -100,7 +100,7 @@ CLIENT_URL=http://localhost:3000
 
 # Frontend
 VITE_BACKEND_URL=http://localhost:5000
-\`\`\`
+
 
 ## Concepts Implemented
 - **State Management**: React Context API for global state
@@ -109,4 +109,4 @@ VITE_BACKEND_URL=http://localhost:5000
 - **Error Handling**: Comprehensive error handling on both client and server
 - **Responsive Design**: Mobile-first responsive UI design
 - **API Security**: Protection against common web vulnerabilities
-\`\`\`
+
